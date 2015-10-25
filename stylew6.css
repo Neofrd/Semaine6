@@ -1,0 +1,212 @@
+
+/* palette de couleur sur http://www.color-hex.com/color-palette/11221*/
+
+
+
+header{
+    padding:10px;
+    margin-top: 0;
+    width:100%;
+    color:white;
+    background-color: #6fd5ee; 
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url(/images/always_grey.png) no-repeat;
+}
+.icone {
+    text-align: center; 
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+#titre_principal
+{
+    display: inline-block;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.colonne1 {
+    display:inline-block;
+    width:290px;
+    /*position: relative;*/
+}
+.colonne2 {
+    display: inline-block;
+    width:290px;
+}
+.colonne3 {
+    display:inline-block;
+    width:290px;
+}
+
+/* Bannière */
+
+.banniere_image
+{
+    margin-top: 15px;
+    height: 100%;
+    /*border-radius: 5px;*/
+    background: url('images/sanfrancisco.jpg') no-repeat;
+    position: relative;
+    /*box-shadow: 0px 4px 4px #1c1a19;*/
+    margin-bottom: 0x;
+}
+
+.banniere_description
+{
+    position: relative;
+    bottom: 0;
+    /*border-radius: 0px 0px 5px 5px;*/
+    /*width: 99.5%;*/
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+}
+
+.banniere_description img
+{
+    border: 0;
+    position: relative;
+}
+
+/*.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11
+{
+    display:inline-block;
+}*/
+.block1, .block2, .block3, .block4
+{
+    vertical-align: top;
+}
+.block1 {
+    /*display:inline;*/
+    background-color: #f6f6f6;
+    height: 400px;
+    width:100%;
+    margin-left:0;
+    padding: 0;
+    position:absolute;
+    position: 0;
+}
+
+.block2 {
+    /*display:inline-block;*/
+    background-color: #76f6bf;
+    height: 200px;
+    width:50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block3 {
+    /*display:block;*/
+    background-color: #ddf359;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block4 {
+    /*display:inline-block;*/
+    background-color: #82d6ff;
+    height: 200px;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block5 {
+    /*display:inline-block;*/
+    background-color: #ff7f7f;
+    height: 400px;
+    width:100%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block6 {
+    /*display:inline-block;*/
+    background-color: #76f6bf;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block7 {
+    /*display:inline-block;*/
+    background-color: #bda8ff;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block8 {
+    /*display:inline-block;*/
+    background-color: #82d6ff;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block9 {
+    /*display:inline-block;*/
+    background-color: #f6f6f6;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block10 {
+    /*display:inline-block;*/
+    background-color: #ff7f7f;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+
+.block11 {
+    /*display:inline-block;*/
+    background-color: #bda8ff;
+    height: 200px;
+    width: 50%;
+    margin-left:0;
+    padding: 0;
+    position:relative;
+}
+footer {
+    position:relative;
+    margin: 50px 0;
+}
+main {
+    width:100%;
+    margin:auto;
+}
